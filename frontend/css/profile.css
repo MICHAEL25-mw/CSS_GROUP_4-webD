@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: poppins, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.profile {
+   width: 200px;
+   height: 200px;
+   background:#777;
+   color:#fff;
+   border-radius: 50%;
+   margin: 40px auto;
+   padding: 24px;
+}
+.profile-info {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-info h2 {
+    font-size: 2rem;
+    color: #333;
+}
+.role {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+.profile-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+.profile-info button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profile-info button:hover {
+    background-color: #0056b3;
+}
+.edit-profile {
+    display: none;
+    position: relative;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.active {
+    display: block;
+}
+.edit-profile label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+    background: #fff;
+}
+.edit-profile input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+input[type='email']{
+    color: #333;
+}
+ input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: 0.3s ease;
+}
+.edit-profile input[type="submit"]:hover {
+    background-color: #218838;
+}
+h3{
+    background: #fff;
+    padding: 10px;
+}
+.cancel-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fbfbfc;
+    border: .5px solid #ccc;
+    color: #333;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+i{
+    background-color: inherit;
+}
+.cancel-btn:hover{
+    background-color: #e0e0e0;
+}
+input[type='password']:focus, input[type='email']:focus {
+    border-color: #007bff;
+    outline: none;
+}
